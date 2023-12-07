@@ -9,6 +9,7 @@ const TapBar = ({textValue, setTextValue, handleAddTask}) => {
                 placeholder="Añadir Tarea"
                 value={textValue}
                 onChangeText={setTextValue}
+
             />
             <Button title="Add" onPress={handleAddTask} />
         </View>
@@ -21,12 +22,16 @@ const styles = StyleSheet.create({
     containerTopNav: {
         flexDirection: "row",
         width: "80%",
-        gap: 10
+        gap: 10,
+        backgroundColor:'#bdb76b',
+        padding:10,
+        borderRadius: 5,
     },
     input: {
-        borderWidth: 1,
+        fontSize:20,
         width: "80%",
         borderRadius: 5,
-        paddingLeft: 10,
+        borderBottomWidth:2,
+        paddingLeft: 5,
     },
 })

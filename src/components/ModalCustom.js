@@ -35,19 +35,21 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: "center",
         justifyContent: "center",
-        backgroundColor: "#ccccccaa"
+        backgroundColor: "#ccccccaa",
     },
     containerCard: {
-        backgroundColor: "#fff",
+        backgroundColor: "#66cdaa",
         alignItems: "center",
         paddingHorizontal: 20,
         paddingVertical: 30,
         borderWidth: 1,
         borderRadius: 10,
+        borderColor:'#2f4f4f',
         gap: 15,
     },
     textSelected: {
         fontWeight: "bold",
+        fontSize:20,
     },
     containerBoxButton: {
         flexDirection: "row",

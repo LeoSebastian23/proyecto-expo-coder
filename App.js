@@ -1,27 +1,7 @@
 import { View, StyleSheet } from "react-native"
 import React, { useState } from "react"
-// import TapBar from "./src/components/TapBar"
-// import TaskList from "./src/components/taskList/TaskList"
-// import ModalCustom from "./src/components/ModalCustom"
 import { TapBar, ModalCustom, TaskList } from "./src/components"
 
-const ListaMock = [
-    {
-        id: "001",
-        task: "Pasear Perro",
-        completed: "Pendiente",
-    },
-    {
-        id: "002",
-        task: "Lavar ropa",
-        completed: "Pendiente",
-    },
-    {
-        id: "003",
-        task: "Sacar Basura",
-        completed: "Pendiente",
-    },
-]
 
 const App = () => {
 
@@ -88,9 +68,11 @@ const App = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        marginTop: 30,
-        alignItems: "center"
-    },
+        marginTop: 80,
+        paddingTop:20,
+        alignItems: "center",
+        backgroundColor:'#008b8b',
+    }
 })
 
 export default App;
